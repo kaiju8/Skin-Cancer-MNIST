@@ -1,6 +1,6 @@
 # Skin-Cancer-MNIST
 The Dataset in avaiable of [Kaggle](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)<br>
-Three notebooks were run two of them performed classification task one using DenseNet 121 and another using Gated Recurrent Network(LSTM gave horrible results) and another notebook was used to generate realistic images from the dataset using DCGAN(relatively runs on less GPUs)<br>
+Three notebooks were run, two of them performed classification task one using DenseNet 121 and another using Gated Recurrent Network(LSTM gave horrible results) and another notebook was used to generate realistic images from the dataset using DCGAN(relatively runs on less GPUs)<br>
 Due to GPU limitations only limited epochs were run, however it is clear from loss values that results would be better if more epochs were run.
 ## Classification Tasks
 The Dataset for some lesions contained multiple images(with different levels of magnification), in which case only one image was taken thus reducing the dataset by roughly 20%. Augmentations were done like Flipping and Rotation to increase performance.<br>
